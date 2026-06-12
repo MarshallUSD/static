@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Abibas — Where street culture meets high fashion. Discover our latest collections." />
+  <title>ABIBAS — Fashion Forward</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="nav__logo">ABIBAS</div>
+    <nav class="nav__links">
+      <a href="#collections">Collections</a>
+      <a href="#featured">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav__actions">
+      <button class="nav__search" aria-label="Search">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      </button>
+      <button class="nav__cart" aria-label="Cart">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        <span class="nav__cart-count">0</span>
+      </button>
+      <button class="nav__hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#collections" class="mobile-menu__link">Collections</a>
+    <a href="#featured" class="mobile-menu__link">Shop</a>
+    <a href="#about" class="mobile-menu__link">About</a>
+    <a href="#contact" class="mobile-menu__link">Contact</a>
+  </div>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__bg">
+        <div class="hero__gradient"></div>
+      </div>
+      <div class="hero__content">
+        <span class="hero__tag">New Season 2026</span>
+        <h1 class="hero__title">
+          Dare to<br/>
+          <em>Define</em><br/>
+          Yourself
+        </h1>
+        <p class="hero__subtitle">
+          Where street culture meets high fashion.<br/>
+          Bold. Unapologetic. Yours.
+        </p>
+        <div class="hero__cta">
+          <a href="#featured" class="btn btn--primary">Shop Now</a>
+          <a href="#collections" class="btn btn--ghost">View Collections</a>
+        </div>
+      </div>
+      <div class="hero__scroll">
+        <span>Scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- TICKER -->
+    <div class="ticker">
+      <div class="ticker__track">
+        <span>NEW COLLECTION DROP</span>
+        <span class="ticker__dot">✦</span>
+        <span>FREE SHIPPING OVER $150</span>
+        <span class="ticker__dot">✦</span>
+        <span>SUMMER 2026 IS HERE</span>
+        <span class="ticker__dot">✦</span>
+        <span>LIMITED EDITION PIECES</span>
+        <span class="ticker__dot">✦</span>
+        <span>NEW COLLECTION DROP</span>
+        <span class="ticker__dot">✦</span>
+        <span>FREE SHIPPING OVER $150</span>
+        <span class="ticker__dot">✦</span>
+        <span>SUMMER 2026 IS HERE</span>
+        <span class="ticker__dot">✦</span>
+        <span>LIMITED EDITION PIECES</span>
+        <span class="ticker__dot">✦</span>
+      </div>
+    </div>
+
+    <!-- COLLECTIONS -->
+    <section class="collections" id="collections">
+      <div class="section-header">
+        <span class="section-tag">Explore</span>
+        <h2 class="section-title">Our Collections</h2>
+      </div>
+      <div class="collections__grid">
+        <div class="collection-card collection-card--large">
+          <div class="collection-card__bg" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);">
+            <div class="collection-card__pattern collection-card__pattern--1"></div>
+          </div>
+          <div class="collection-card__content">
+            <span class="collection-card__tag">SS26</span>
+            <h3 class="collection-card__title">Urban Core</h3>
+            <p class="collection-card__desc">Minimalism meets maximum impact</p>
+            <a href="#featured" class="collection-card__link">Explore →</a>
+          </div>
+        </div>
+        <div class="collection-card">
+          <div class="collection-card__bg" style="background: linear-gradient(135deg, #2d1b69 0%, #11998e 100%);">
+            <div class="collection-card__pattern collection-card__pattern--2"></div>
+          </div>
+          <div class="collection-card__content">
+            <span class="collection-card__tag">Limited</span>
+            <h3 class="collection-card__title">Neon Nights</h3>
+            <p class="collection-card__desc">Club culture elevated</p>
+            <a href="#featured" class="collection-card__link">Explore →</a>
+          </div>
+        </div>
+        <div class="collection-card">
+          <div class="collection-card__bg" style="background: linear-gradient(135deg, #c94b4b 0%, #4b134f 100%);">
+            <div class="collection-card__pattern collection-card__pattern--3"></div>
+          </div>
+          <div class="collection-card__content">
+            <span class="collection-card__tag">Essentials</span>
+            <h3 class="collection-card__title">Raw Canvas</h3>
+            <p class="collection-card__desc">Back to basics, redefined</p>
+            <a href="#featured" class="collection-card__link">Explore →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PRODUCTS -->
+    <section class="featured" id="featured">
+      <div class="section-header">
+        <span class="section-tag">Trending Now</span>
+        <h2 class="section-title">Featured Pieces</h2>
+      </div>
+      <div class="products__filter">
+        <button class="filter-btn filter-btn--active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="tops">Tops</button>
+        <button class="filter-btn" data-filter="bottoms">Bottoms</button>
+        <button class="filter-btn" data-filter="outerwear">Outerwear</button>
+        <button class="filter-btn" data-filter="footwear">Footwear</button>
+      </div>
+      <div class="products__grid" id="productsGrid">
+
+        <div class="product-card" data-category="tops">
+          <div class="product-card__img" style="background: linear-gradient(145deg, #0f0c29, #302b63, #24243e);">
+            <div class="product-card__shape product-card__shape--tee"></div>
+            <button class="product-card__wishlist" aria-label="Wishlist">♡</button>
+            <span class="product-card__badge">New</span>
+          </div>
+          <div class="product-card__info">
+            <h4 class="product-card__name">Phantom Oversized Tee</h4>
+            <p class="product-card__category">Tops</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">$89</span>
+              <button class="product-card__add btn--small">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="outerwear">
+          <div class="product-card__img" style="background: linear-gradient(145deg, #1a1a1a, #3d3d3d, #1a1a1a);">
+            <div class="product-card__shape product-card__shape--jacket"></div>
+            <button class="product-card__wishlist" aria-label="Wishlist">♡</button>
+            <span class="product-card__badge product-card__badge--hot">Hot</span>
+          </div>
+          <div class="product-card__info">
+            <h4 class="product-card__name">Noir Bomber Jacket</h4>
+            <p class="product-card__category">Outerwear</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">$249</span>
+              <button class="product-card__add btn--small">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="bottoms">
+          <div class="product-card__img" style="background: linear-gradient(145deg, #4a0e0e, #8b2525, #4a0e0e);">
+            <div class="product-card__shape product-card__shape--pants"></div>
+            <button class="product-card__wishlist" aria-label="Wishlist">♡</button>
+          </div>
+          <div class="product-card__info">
+            <h4 class="product-card__name">Cargo Wide-Leg Pants</h4>
+            <p class="product-card__category">Bottoms</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">$129</span>
+              <button class="product-card__add btn--small">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="footwear">
+          <div class="product-card__img" style="background: linear-gradient(145deg, #0d4f3c, #1a8a5a, #0d4f3c);">
+            <div class="product-card__shape product-card__shape--shoe"></div>
+            <button class="product-card__wishlist" aria-label="Wishlist">♡</button>
+            <span class="product-card__badge product-card__badge--limited">Limited</span>
+          </div>
+          <div class="product-card__info">
+            <h4 class="product-card__name">Vertex Low Sneaker</h4>
+            <p class="product-card__category">Footwear</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">$179</span>
+              <button class="product-card__add btn--small">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="tops">
+          <div class="product-card__img" style="background: linear-gradient(145deg, #1e3c72, #2a5298, #1e3c72);">
+            <div class="product-card__shape product-card__shape--hoodie"></div>
+            <button class="product-card__wishlist" aria-label="Wishlist">♡</button>
+          </div>
+          <div class="product-card__info">
+            <h4 class="product-card__name">Echo Zip Hoodie</h4>
+            <p class="product-card__category">Tops</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">$149</span>
+              <button class="product-card__add btn--small">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="outerwear">
+          <div class="product-card__img" style="background: linear-gradient(145deg, #6a3093, #a044ff, #6a3093);">
+            <div class="product-card__shape product-card__shape--coat"></div>
+            <button class="product-card__wishlist" aria-label="Wishlist">♡</button>
+            <span class="product-card__badge">New</span>
+          </div>
+          <div class="product-card__info">
+            <h4 class="product-card__name">Luxe Trench Coat</h4>
+            <p class="product-card__category">Outerwear</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">$389</span>
+              <button class="product-card__add btn--small">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROMO BANNER -->
+    <section class="promo">
+      <div class="promo__content">
+        <h2 class="promo__title">
+          <em>Summer Drop</em><br/>Is Live
+        </h2>
+        <p class="promo__text">Up to 30% off select pieces. Limited time only.</p>
+        <a href="#featured" class="btn btn--white">Shop the Sale</a>
+      </div>
+      <div class="promo__visual">
+        <div class="promo__circle promo__circle--1"></div>
+        <div class="promo__circle promo__circle--2"></div>
+        <div class="promo__circle promo__circle--3"></div>
+        <div class="promo__number">30<span>%</span></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="about__content">
+        <span class="section-tag">Our Story</span>
+        <h2 class="about__title">
+          Born on the streets.<br/>
+          Built for <em>everyone.</em>
+        </h2>
+        <p class="about__text">
+          Abibas started in 2018 with a single idea: fashion should be fearless.
+          We blend premium craftsmanship with street-level authenticity to create
+          pieces that don't ask for permission.
+        </p>
+        <p class="about__text">
+          Every stitch, every silhouette, every collection is a statement.
+          We design for the bold, the dreamers, the ones who refuse to blend in.
+        </p>
+        <div class="about__stats">
+          <div class="about__stat">
+            <span class="about__stat-num" data-target="250">0</span>
+            <span class="about__stat-suffix">+</span>
+            <p>Unique Pieces</p>
+          </div>
+          <div class="about__stat">
+            <span class="about__stat-num" data-target="40">0</span>
+            <span class="about__stat-suffix">+</span>
+            <p>Countries Shipped</p>
+          </div>
+          <div class="about__stat">
+            <span class="about__stat-num" data-target="98">0</span>
+            <span class="about__stat-suffix">%</span>
+            <p>Happy Customers</p>
+          </div>
+        </div>
+      </div>
+      <div class="about__visual">
+        <div class="about__img-stack">
+          <div class="about__img about__img--1"></div>
+          <div class="about__img about__img--2"></div>
+          <div class="about__img about__img--3"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+      <div class="section-header">
+        <span class="section-tag">Community</span>
+        <h2 class="section-title">What They Say</h2>
+      </div>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">"The Noir Bomber is the best jacket I've ever owned. The quality is insane for the price."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar" style="background: linear-gradient(135deg, #667eea, #764ba2);"></div>
+            <div>
+              <strong>Aisha K.</strong>
+              <span>Berlin, Germany</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">"Abibas pieces just hit different. I get compliments every single time I wear anything from them."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar" style="background: linear-gradient(135deg, #f093fb, #f5576c);"></div>
+            <div>
+              <strong>Marcus T.</strong>
+              <span>New York, USA</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">"Fast shipping, stunning packaging, and the clothes look even better in person. 10/10 brand."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar" style="background: linear-gradient(135deg, #4facfe, #00f2fe);"></div>
+            <div>
+              <strong>Yuki N.</strong>
+              <span>Tokyo, Japan</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter" id="contact">
+      <div class="newsletter__content">
+        <span class="section-tag">Stay in the Loop</span>
+        <h2 class="newsletter__title">Drop Access.<br/>First Always.</h2>
+        <p class="newsletter__text">Subscribe for early access to new drops, exclusive offers, and style guides.</p>
+        <form class="newsletter__form" id="newsletterForm">
+          <input
+            type="email"
+            class="newsletter__input"
+            placeholder="your@email.com"
+            required
+            aria-label="Email address"
+          />
+          <button type="submit" class="btn btn--primary">Subscribe</button>
+        </form>
+        <p class="newsletter__disclaimer">No spam. Unsubscribe anytime.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <div class="footer__logo">ABIBAS</div>
+        <p class="footer__tagline">Fashion Forward Since 2018</p>
+        <div class="footer__socials">
+          <a href="#" aria-label="Instagram" class="footer__social">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" aria-label="TikTok" class="footer__social">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.74a4.85 4.85 0 0 1-1.01-.05z"/></svg>
+          </a>
+          <a href="#" aria-label="X (Twitter)" class="footer__social">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__nav">
+        <div class="footer__col">
+          <h4>Shop</h4>
+          <a href="#">New Arrivals</a>
+          <a href="#">Men</a>
+          <a href="#">Women</a>
+          <a href="#">Sale</a>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <a href="#">About Us</a>
+          <a href="#">Careers</a>
+          <a href="#">Press</a>
+          <a href="#">Sustainability</a>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <a href="#">FAQ</a>
+          <a href="#">Shipping</a>
+          <a href="#">Returns</a>
+          <a href="#">Size Guide</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2026 Abibas. All rights reserved.</p>
+      <div class="footer__legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CART TOAST -->
+  <div class="toast" id="toast">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+    Item added to cart
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
